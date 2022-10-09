@@ -6,5 +6,8 @@ I just learned how to use the `git` command earlier so I decided to make a "webs
 Things that I'm studying right now:
 - Discrete Mathematics (YUCK! I hate graph theory!)
 - Linear Algebra (this is my favorite)
-- Mathematical Analysis (Currently reading Baby Rudin)
-Nice to meet you!
+- Mathematical Analysis (Currently reading Baby Rudin)  
+Nice to meet you!  
+  
+An image of the logo of NixOS.  
+![cool-snowflake-os](nix-logo.webp)
