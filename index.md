@@ -7,6 +7,7 @@ Things that I'm studying right now:
 - Discrete Mathematics (YUCK! I hate graph theory!)
 - Linear Algebra (this is my favorite)
 - Mathematical Analysis (Currently reading Baby Rudin)  
+  
 Nice to meet you!  
   
 An image of the logo of NixOS.  
