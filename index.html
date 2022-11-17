@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Marine Snow</title>
+  <meta name="description" content="kunny's personal blog">
+  <style>
+    html {
+      align-items: center;
+      background-color: #0e0e12;
+      color: #dddddd;
+      display: flex;
+      height: 100%;
+      font: 17px/1 "Inconsolata", monospace;
+      justify-content: center;
+    }
+    body {
+      <!-- background-color: ; -->
+      border-radius: 2px;
+      color: #dddddd;
+      display: flex;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+    #cursor {
+      background-color: #dddddd;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink {
+      0% { opacity: 0; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+    p {
+      margin: 0;
+    }
+    p span {
+      color: #b7416e;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    a:focus, a:hover {
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+    ul:nth-child(5n + 1) li:first-child {
+      color: #f4cb03;
+    }
+
+    ul:nth-child(5n + 2) li:first-child {
+      color: #f2b09d;
+    }
+
+    ul:nth-child(5n + 3) li:first-child {
+      color: #81bfd1;
+    }
+
+    ul:nth-child(5n + 4) li:first-child {
+      color: #ce627f;
+    }
+
+    ul:nth-child(5n + 5) li:first-child {
+      color: #854921;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+  </style>
+</head>
+<body>
+  <p><span>kunny@nix&gt; $   </span>my webpage, i suppose<span id="cursor">⠀</span></p>
+  <nav>
+    <ul>
+      <li>mathematics</li>
+    </ul>
+    <ul>
+      <li>computers</li>
+    </ul>
+    <ul>
+      <li>random</li>
+    </ul>
+  </nav>
+</body>
+<footer>
+</footer>
+</html>
+
